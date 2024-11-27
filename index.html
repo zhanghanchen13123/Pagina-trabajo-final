@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/stytle.css">
+    <script>
+        function toggleAnswer(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block"
+            } else {
+                element.style.display = "none"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <img src="IMG/logo.png" alt="schoollogo">
+            San Joaquin School
+        </div>
+        <nav>
+            <a href="PROYECTO">PROYECTO</a>
+            <a href="NUESTROS PILARES">NUESTROS PILARES</a>
+            <a href="NOVEDADES">NOVEDADES</a>
+            <a href="NIVELES">NIVELES</a>
+            <a href="COMUNIDAD">COMUNIDAD</a>
+            <a href="ADMISIONES">ADMISIONES</a>
+        </nav>
+    </header>
+    <main>
+        <div class="background"></div>
+    </main>
+    <main>
+        <section>
+            <div class="logo">
+                <img src="IMG/cambridge-international.jpg" alt="cambridge-international">
+                <img src="IMG/RotaryLogo.jpg" alt="RotaryLogo">
+                <img src="IMG/ACOBI_edited.jpg" alt="ACOBI_edited">
+                <img src="IMG/aiepba-logo_edited.jpg" alt="aiepba-logo_edited">
+                <img src="IMG/Young_learners.jpg" alt="Young_learners">
+                <img src="IMG/Free Monday.jpg" alt="Freemondaylogo">
+                <img src="IMG/p4c.jpg" alt="p4c">
+                <img src="IMG/background.jpg" alt="googlelogo">
+                <img src="IMG/descarga-removebg.jpg" alt="ieltslogo">
+            </div>
+        </section>
+    </main>
+    <section>
+        <article class="parte2">
+            <img src="IMG/anniu.jpg" alt="anniu" width="100px">
+            <p class="p1">Preparamos a las nuevas generaciones para <br>
+                abordar mundos que hoy no existen sobre la <br>
+                base de firmes principios educativos, <br>
+                democráticos y éticos.</p>
+        </article>
+        <article class="parte3">
+            <p class="p2">
+                Nuestros egresados tendrán las herramientas necesarias para convertirse en <br>
+                agentes de creación de nuevos universos para poder hacer de este mundo un <br>
+                mundo mucho mejor.
+            </p>
+        </article>
+    </section>
+    <section class="parte4">
+        <article>
+            <h1>Proyecto Bilingüe</h1>
+            <h2 class="h2">Enfoque Comunicativo e Immersivo K2, K3, K4 & K5</h2>
+            <p class="p3">
+                En San Joaquín, ofrecemos un enfoque innovador en la enseñanza de idiomas, <br>
+                donde el inglés es un pilar fundamental desde las primeras etapas de <br>
+                aprendizaje. A diferencia de otros enfoques más tradicionales, nuestro enfoque <br>
+                comunicativo pone énfasis en la comunicación efectiva como el objetivo final <br>
+                del aprendizaje de una lengua.
+            </p>
+            <p class="p3">
+                Desde K2, K3 y K4, los niños participan en un programa de inmersión total en <br>
+                inglés, donde el idioma se convierte en una parte integral de su vida cotidiana. <br>
+                Este enfoque no solo facilita el dominio del idioma, sino que también sienta las <br>
+                bases para el desarrollo de competencias comunicativas que serán esenciales a <br>
+                lo largo de su vida.
+            </p>
+        </article>
+        <div class="parte5">
+            <img src="IMG/benzi.jpg" alt="benzi">
+        </div>
+    </section>
+    <section class="parte6">
+        <article>
+            <h2>¿Qué significa nuestro Enfoque Comunicativo?</h2>
+            <div class="border">
+                <p class="p4">
+                    Este enfoque integral no solo se <br>
+                    centra en el aprendizaje del inglés, <br>
+                    sino en el desarrollo de una <br>
+                    comunidad cercana y solidaria donde <br>
+                    cada estudiante se siente apoyado y <br>
+                    valorado. Creemos que un entorno de <br>
+                    aprendizaje positivo es clave para el <br>
+                    éxito académico y personal.
+                </p>
+            </div>
+        </article>
+        <article>
+            <ul>
+                <li>
+                    ¿Cuáles son los horarios del colegio y nuestro <br>
+                    calendario especial?
+                    <div class="answer" id="answer1">
+                        <img src="IMG/horario.jpg" alt="horario" width="400px"><br>
+                        <p>
+                            <strong>Winter Break</strong>:dos semanas en julio. <br>
+                            <strong>Spring Break</strong>:una semana en septiembre.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer1')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Ofrecen apoyo para alumnos que no vienen de <br>
+                    escuelas bilingües o que provienen de escuelas en <br>
+                    alemán?
+                    <div class="answer" id="answer2">
+                        <p>
+                            Sí, contamos con un programa de catch-up diseñado para <br>
+                            ayudar a los alumnos que ingresan sin una base sólida en <br>
+                            inglés o que vienen de escuelas con otros enfoques, como el <br>
+                            alemán. Este programa intensivo se adapta a sus necesidades <br>
+                            individuales para que puedan integrarse plenamente al nivel <br>
+                            de sus compañeros.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer2')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cómo es nuestra secundaria flexible atravesada por la <br>
+                    tecnología y la programación?
+                    <div class="answer" id="answer3">
+                        <p>
+                            Nuestra secundaria ofrece un enfoque flexible, permitiendo a <br>
+                            los alumnos elegir materias y niveles según sus intereses. <br>
+                            Además, la tecnología y la programación son ejes transversales <br>
+                            en el currículo, formando parte de proyectos y experiencias <br>
+                            prácticas que preparan a los estudiantes para un futuro en <br>
+                            constante evolución.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer3')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cuál es el perfil del egresado de San Joaquín?
+                    <div class="answer" id="answer4">
+                        <p>
+                            Formamos ciudadanos globales con habilidades lingüísticas y <br>
+                            culturales. Los alumnos tienen la oportunidad de rendir <br>
+                            exámenes internacionales como:
+                        <ul>
+                            <li>FCE en 4º de secundaria, con materias de Inglés <br>
+                                Curricular y Language, y espacio de <br>
+                                refuerzo los miércoles de 17:00 a 18:15.
+                            </li>
+                            <li>CAE en 5º de secundaria, también con Inglés <br>
+                                Curricular y Language, con refuerzo los miércoles de <br>
+                                17:00 a 18:15.
+                            </li>
+                            <li>IELTS en 6º de secundaria, con refuerzo los viernes <br>
+                                de 12:00 a 13:15. Este refuerzo se ofrece desde 2019.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer4')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cómo es un día en el plan bilingüe?
+                    <div class="answer" id="answer5">
+                        <p>El día a día en nuestro programa bilingüe se basa en la <br>
+                            inmersión total en inglés, especialmente en los niveles <br>
+                            iniciales. Las clases de diversas materias se dictan en inglés, <br>
+                            fomentando un aprendizaje natural del idioma. Se utiliza un <br>
+                            enfoque comunicativo, priorizando la expresión y comprensión <br>
+                            a través de proyectos y actividades prácticas. No se repiten <br>
+                            contenidos en ambos idiomas sino que se complementan lo <br>
+                            que hace que nuestro currículum sea enriquecido respecto de <br>
+                            otras propuestas.</p>
+                    </div>
+                    <button onclick="toggleAnswer('answer5')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Para qué es la cuota de materiales en kinder?
+                    <div class="answer" id="answer6">
+                        <p>
+                            En Kinder aplicamos una mirada Montessori, lo que significa <br>
+                            que los materiales utilizados tienen un alto valor pedagógico y <br>
+                            están orientados a ser manipulativos y concretos. Esto apoya el <br>
+                            desarrollo sensorial y cognitivo de los niños en esta etapa <br>
+                            crucial y es por eso que cobramos una cuota de materiales <br>
+                            extra.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer6')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cómo funciona el proceso de adaptación en kinder?
+                    <div class="answer" id="answer7">
+                        <p>
+                            No tenemos un proceso de adaptación estándar. Cada familia <br>
+                            y niño tienen su propio ritmo, y nos adaptamos a sus <br>
+                            necesidades. Las puertas del colegio están abiertas desde el <br>
+                            primer día en horario completo, pero ajustamos la transición <br>
+                            de acuerdo con cada situación para asegurar un inicio positivo <br>
+                            y cómodo.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer7')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cómo manejan los procesos de pañales y mamadera <br>
+                    en kinder?
+                    <div class="answer" id="answer8">
+                        <p>
+                            No apuramos estos procesos. Acompañamos y apoyamos a <br>
+                            cada niño en su desarrollo, brindando un entorno seguro y <br>
+                            respetuoso. Contamos con un baño en cada sala para <br>
+                            fomentar la independencia y autonomía de los pequeños.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer8')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cómo preparan a los alumnos para ser ciudadanos <br>
+                    digitales responsables?
+                    <div class="answer" id="answer9">
+                        <p>
+                            Trabajamos bajo una política de uso responsable de la <br>
+                            tecnología. Desde temprana edad, educamos a los alumnos <br>
+                            en el manejo ético y consciente de las herramientas digitales,<br>
+                            fomentando un uso saludable y seguro en todos los entornos.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer9')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    ¿Cuál es la importancia del uniforme escolar?
+                    <div class="answer" id="answer10">
+                        <p>
+                            El uso del uniforme es fundamental en San Joaquín, ya que <br>
+                            fomenta un sentido de identidad y pertenencia dentro de <br>
+                            nuestra comunidad escolar. Además, contribuye a generar un <br>
+                            ambiente de igualdad, ayudando a que los alumnos se <br>
+                            concentren en su aprendizaje y desarrollo personal. En fechas <br>
+                            especiales, les damos la oportunidad de venir vestidos <br>
+                            creativamente.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer10')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Máxima importancia a la comunicación:
+                    <div class="answer" id="answer11">
+                        <p>
+                            Nuestros estudiantes aprenden a utilizar el inglés de manera <br>
+                            práctica y efectiva, enfocándose en la interacción y la <br>
+                            comunicación real desde temprana edad.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer11')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Desarrollo de competencias comunicativas:
+                    <div class="answer" id="answer12">
+                        <p>
+                            Nuestro currículo está diseñado para desarrollar las <br>
+                            habilidades necesarias para que los estudiantes se <br>
+                            comuniquen de manera competente en una comunidad de <br>
+                            habla inglesa.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer12')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Énfasis en la oralidad
+                    <div class="answer" id="answer13">
+                        <p>
+                            Reconocemos que la capacidad de expresarse verbalmente es <br>
+                            fundamental para la comunicación. Por ello, promovemos la <br>
+                            práctica continua de la oralidad, facilitando que los <br>
+                            estudiantes hablen inglés con confianza y fluidez en <br>
+                            situaciones cotidianas y académicas.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer13')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Inmersión y práctica
+                    <div class="answer" id="answer14">
+                        <p>
+                            A través de situaciones cotidianas reales y actividades <br>
+                            interactivas, los estudiantes practican el uso del lenguaje en <br>
+                            contextos concretos, lo que fortalece su confianza y fluidez.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer14')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Simulación de procesos psicolingüísticos
+                    <div class="answer" id="answer15">
+                        <p>
+                            Implementamos técnicas que replican los procesos naturales <br>
+                            de adquisición del lenguaje, ayudando a los estudiantes a <br>
+                            internalizar el inglés de manera orgánica.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer15')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+                <li>
+                    Énfasis en la producción y el mensaje
+                    <div class="answer" id="answer16">
+                        <p>
+                            Promovemos la práctica de producción libre del lenguaje, <br>
+                            alentando a los estudiantes a tomar riesgos y expresarse con <br>
+                            creatividad y precisión.
+                        </p>
+                    </div>
+                    <button onclick="toggleAnswer('answer16')">>>></button>
+                    <div class="linea2"></div>
+                </li>
+            </ul>
+            <button class="input">Saver más</button>
+        </article>
+    </section>
+    <div class="parte3">
+        <button class="input2">Proximamente: Libro de la Dra.Susana Massaro sobre Bilingüismo</button>
+    </div>
+    <section>
+        <div class="parte7">
+            <div class="parte8">
+                <p class="p5">
+                    Dale a tu hijo la <br>
+                    oportunidad de <br>
+                    crecer bilingüe <br>
+                    en inglés.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="parte9">
+        <h1 class="h1">
+            Los principales idiomas <br>
+            de negocios globales 2024
+        </h1>
+    </section>
+    <section class="parte10">
+        <div class="ideoma">
+            <p class="p6">Ingles</p>
+            <p class="p6">Chino</p>
+            <p class="p6">Español</p>
+            <p class="p6">Japones</p>
+        </div>
+        <di class="linea">
+            </div>
+            <div>
+                <div class="ingles"></div>
+                <p class="a27">27%</p>
+                <div class="chino"></div>
+                <p class="a18">18%</p>
+                <div class="spanish"></div>
+                <p class="a8">8%</p>
+                <div class="japones"></div>
+                <p class="a6">6%</p>
+            </div>
+    </section>
+    <section class="parte11">
+        <div class="parte12">
+            <p class="p7">
+                "La educación es el arma más poderosa que puedes <br>
+                usar para cambiar el mundo."
+            </p>
+            <p class="p8">Nelson Mandela</p>
+        </div>
+    </section>
+    <section>
+        <article class="parte13">
+            <img src="IMG/redanniu.jpg" alt="redanniu" width="90px" height="170px">
+            <p class="p9">
+                Conocé nuestro proceso de admisión.
+            </p>
+        </article>
+        <article>
+            <p class="p10">
+                El proceso de admisión en SJS se compone de tres etapas diseñadas para conocer a tu <br>
+                familia y permitir que tu hijo experimente la esencia de nuestro colegio.
+            </p>
+        </article>
+        <article class="parte13">
+            <a class="parte14" href="">Saber más >></a>
+        </article>
+    </section>
+    <section class="parte16">
+        <button class="input5">ARANCELES 2024/25</button>
+    </section>
+    <section class="logo">
+        <section class="parte18">
+            <div class="parte20">
+                <div>
+                    <h1 class="Ponete">Ponete en contacto con nosotros</h1>
+                    <form action="" class="fila">
+                        <div>
+                            <div class="fila">
+                                <label for="nombre">Nombre y Apellido</label>
+                                <input class="input6" type="text" id="nombre"><br>
+                            </div>
+                            <div class="fila">
+                                <label for="email">Email</label>
+                                <input class="input6" type="text" id="email"></textarea><br>
+                            </div>
+                            <div class="fila">
+                                <label for="phone">Teléfono</label>
+                                <input class="input6" type="text" id="phone"></textarea><br>
+                            </div>
+                            <div class="fila">
+                                <label for="alum">Nombre de alumno</label>
+                                <input class="input6" type="text" id="alum"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="p11">¿Cómo nos conociste? *</p>
+                            <div id="opcion">
+                                <input type="checkbox" name="family" value="1">Familiar conocida<br>
+                                <input type="checkbox" name="cercania" value="2">Cercanía<br>
+                                <input type="checkbox" name="Redes" value="3">Redes<br>
+                                <input type="checkbox" name="other" value="4">Otros<br>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <label for="com">Comentarios</label>
+                            <textarea class="textarea" name="omentario" rows="10" cols="70"></textarea><br>
+                        </div>
+                        <input type="submit" class="input3" onclick="return enviarFormulario();" value="Enviar"></input>
+                    </form>
+                    <div id="error"></div>
+                </div>
+            </div>
+            <div class="parte17">
+                <div class="parte17">
+                    <img src="IMG/colgio.jpg" alt="colegio" width="150px"><br>
+                    <p class="p12">NUESTRO COLEGIO</p>
+                    <div class="linea2"></div>
+                    <p class="p13">
+                        San Juan 4570, Villa Ballester, B1653AVX<br>
+                        Buenos Aires, Argentina.
+                    </p>
+                    <p class="p13">
+                        +5411 4767 3211
+                    </p>
+                </div>
+                <div class="parte17">
+                    <img class="textarea" src="IMG/deporte.jpg" alt="deporte" width="150px">
+                    <p class="p14">
+                        CAMPO DE DEPORTES
+                    </p>
+                    <div class="linea3"></div>
+                    <p class="p13">
+                        Luis María Drago 5790 <br>
+                        Munro, B1605AZD
+                    </p>
+                    <p class="p13">
+                        Buenos Aires, Argentina
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="map">
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6572.389981753897!2d-58.55962470173836!3d-34.548618048077245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7545fdfff7f%3A0x5707cab55b89ea94!2sSan%20Juan%204570%2C%20B1653%20Villa%20Ballester%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732399819741!5m2!1ses!2sar"
+                width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="ideoma">
+            <div class="parte19">
+                <img src="IMG/colegioblack.jpg" alt="colegio" width="50px" height="50px">
+                <div class="linea4"></div>
+                <div class="three">
+                    <button class="gif">in</button>
+                    <button class="gif"><img src="IMG/youtube.gif" alt="youtubelogo" width="15px"></button>
+                    <button class="gif"><img src="IMG/instagran.gif" alt="instagran" width="15px"></button>
+                    <button class="gif">f</button>
+                </div>
+            </div>
+            <p class="p15">
+                San Juan 4570 - Villa Ballester, <br>
+                B1653AVX Buenos Aires, Argentina. <br>
+                Tel.: 5411 4767 3211 <br>
+                recepcion@colegiosanjoaquin.edu.ar <br>
+            </p>
+            <div class="pais">
+                <img class="bandera1" src="IMG/argentina .gif" alt="argentina" width="30px" height="30px">
+                <div class="linea5"></div>
+                <img class="bandera" src="IMG/china.gif" alt="china" width="35px" height="35px">
+                <div class="linea5"></div>
+                <img class="bandera" src="IMG/eeuu.gif" alt="eeuu" width="35px" height="35px">
+            </div>
+        </div>
+        <div>
+            <img class="footer" src="IMG/cuerre.jpg" alt="cuerre">
+        </div>
+        <fieldset>
+            <p class="p15">TRABAJÁ CON NOSOTROS</p>
+            <textarea class="textarea1" name="name" id="1">Nombre</textarea><textarea class="textarea1" name="apellido"
+                id="2">Apellido</textarea><br>
+            <textarea class="textarea1" name="email" id="3">Email</textarea><textarea class="textarea1" name="Teléfono"
+                id="4">Teléfono</textarea><br>
+            <select name="posicion">
+                <optgroup label="Eleji un posición">
+                    <option value="0">Eleji un posición</option>
+                    <option value="1">Administración</option>
+                    <option value="2">Docente español</option>
+                    <option value="3">Docente ingles</option>
+                    <option value="4">Otros</option>
+                </optgroup>
+            </select>
+            <textarea class="textarea1" name="create" id="6">Crear a tu Currículum</textarea><br>
+            <textarea class="textarea2" name="why" id="7">¿Por qué querés trabajar en San Joaquín?</textarea>
+        </fieldset>
+    </footer>
+
+    <script src="validacion.js"></script>
+</body>
+
+</html>
